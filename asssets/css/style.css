@@ -1,0 +1,111 @@
+body {
+    background: "images/background.png"
+}
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    
+
+}
+
+#Title {
+    width: 320px;
+    height: 90px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-size: 38px;
+}
+
+#Instructions {
+    width: 470px;
+    height: 500px;
+    border: 1px solid beige;
+    background-color: beige;
+    color: green;
+    font-size: 20px;
+    padding: 30px 20px 20px 20px;
+}
+
+#Random-Number {
+    width: 330px;
+    height: 180px;
+    border: 1px solid green;
+    background-color: green;
+    color: black;
+    float: left;
+    font-size: 40px;
+}
+
+#ScoreBoard {
+    width: 140px;
+    height:180px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    color: black;
+   float: left;
+   margin-left: 15px;
+}
+.Numbers-to-Track{
+    float: left;
+   
+}
+.btn-group {
+    padding-top: 150px;
+
+}
+
+#crystal-1 {
+    width: 120px;
+    height: 120px;
+    float: left;
+
+}
+#crystal-2 {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 10px;
+}
+#crystal-3 {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 10px;
+}
+#crystal-4 {
+    width:120px;
+    height: 120px;
+    float: left;
+    margin-left: 10px;
+}
+
+#Total-Score-text {
+    width: 310px;
+    height: 30px;
+    border: 1px solid teal;
+    background-color: teal;
+    color: white;
+    margin-top: 60px;
+    position: left;
+    font-size: 18px;
+
+
+}
+
+#Actual-score {
+    width: 310px;
+    height: 200px;
+    border: 1px solid teal;
+    background-color: teal;
+    color: white;
+    position: left;
+    font-size: 40px;
+
+   
+}

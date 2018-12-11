@@ -6,46 +6,67 @@
     <title>Crystal Collector</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Css linked -->
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="asssets/css/style.css" href="reset.css" />
 
 </head>
-<body>
-    <div id="Title">Crystal Collector</div>
+<body background= "images/background.png">
+    <div class="content">
+    <div id="Title">Crystal Collector!</div>
+    <br>
     <div id="Instructions">
         <P>
             You will be given a random number at the start of the game.
             <br>
+            <br>
             There are four crystal below. By clicking on a crystal you will add a specific amount of points to your total score.
+            <br>
             <br>
             You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
             <br>
+            <br>
             The value of each crystal is hidden from you until you click on it.
             <br>
+            <br>
             Each time when the game starts, the game will change the values of each crystal.
+            <br>
+            <br>
+            <br>
+            <br>
         </P>
 
     </div>
-
+    <br>
+    <div class="Numbers-to-Track">
+       
     <div id="Random-Number"></div>
 
     <div id="ScoreBoard"></div>
-
-    <button id="crystal-1" src="assets/images/crystal"></button>
-
-    <buuton id="crystal-2"></buuton>
     
-    <button id="crystal-3"></button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="btn-group">
+        <button id="crystal-1" src="asssets/images/crystal.png"></button>
+
+        <button id="crystal-2" src="asssets/images/crystal-2.jpg"></buuton>
     
-    <button id="crystal-4"></button>
-
-
+        <button id="crystal-3" src="asssets/images/crystal-3.jpg"></button>
+    
+        <button id="crystal-4" src="asssets/images/crystal-4.jpg"></button>
+    </div>
+<br>
+<br>
+<Br>
+    <Br>
     <div id="Total-Score-text">Your total Score is:</div>
-    
+    <br>
     <div id="Actual-score"></div>
     
     <!-- jquery tag -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--Javascript linked-->
     <script type="text/javascript" src="game.js"></script>
+    </div>
 </body>
-</html>>
+</html>
