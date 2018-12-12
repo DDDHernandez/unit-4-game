@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Css linked -->
     <link rel="stylesheet" type="text/css" media="screen" href="asssets/css/style.css" href="reset.css" />
+    <!-- jquery tag -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body background= "images/background.png">
@@ -47,13 +49,13 @@
     <br>
     <br>
     <div class="btn-group">
-        <button id="crystal-1" src="asssets/images/crystal.png"></button>
+        <button id="crystal-1" class="btn btn-choice"  src="asssets/images/crystal.png" value="Math.floor(Math.random() * 20"></button>
 
-        <button id="crystal-2" src="asssets/images/crystal-2.jpg"></buuton>
+        <button id="crystal-2" class="btn btn-choice"  src="asssets/images/crystal-2.jpg"></buuton>
     
-        <button id="crystal-3" src="asssets/images/crystal-3.jpg"></button>
+        <button id="crystal-3" class="btn btn-choice"  src="asssets/images/crystal-3.jpg"></button>
     
-        <button id="crystal-4" src="asssets/images/crystal-4.jpg"></button>
+        <button id="crystal-4" class="btn btn-choice" src="asssets/images/crystal-4.jpg"></button>
     </div>
 <br>
 <br>
@@ -63,10 +65,9 @@
     <br>
     <div id="Actual-score"></div>
     
-    <!-- jquery tag -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+    <script type="text/javascript" src="asssets/javascript/game.js"></script>
     <!--Javascript linked-->
-    <script type="text/javascript" src="game.js"></script>
     </div>
 </body>
 </html>
